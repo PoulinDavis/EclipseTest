@@ -6,8 +6,8 @@ public class Base {
  public void browserInitialisation()
  {
 WebDriver driver=new ChromeDriver();
-//driver.get("https://selenium.qabible.in/");
-driver.get("https://www.amazon.in/");
+driver.get("https://selenium.qabible.in/");
+//driver.get("https://www.amazon.in/");
  }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
